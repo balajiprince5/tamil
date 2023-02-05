@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="dropDownValue" value="Baby"/>
+    <parameter name="searchValue" value="toys"/>
+    <classes>
+      <class name="com.testng.Amazon_TestNGParameter">
+        <methods>
+          <include name="beforeMethod_Statement"/>
+          <include name="afterMethod_Statement"/>
+          <include name="find_the_exact_searchvalue_in_the_suggestion_click"/>
+          <include name="browser_Maximize"/>
+          <include name="user_launch_browser"/>
+          <include name="cookie_delete"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="afterClassStatement"/>
+        </methods>
+      </class> <!-- com.testng.Amazon_TestNGParameter -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
